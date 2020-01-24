@@ -1,0 +1,59 @@
+== Header - Begin ==
+
+Name: Autopurge-Domains
+Description: Automatically delete all emails from domains where spam/phishing emails have been received and the company does not do business with.
+
+Rules:
+- If the message includes these patterns in the From address: <List>
+
+Actions:
+- Delete the message without notifying the recipient or sender
+- Create incident report and send to autiting mailbox
+
+Exceptions:
+- None
+
+== Header - End ==
+
+== List - Begin <Text> ==
+
+.dVaCkZE.com$
+.wKnroKN.com$
+.utuDCEK.com$
+.kMiZvhC.com$
+.sFGQRwx.com$
+.vpdddeqweweqwedg.com$
+.JuYCrvG.com$
+.PtlzQSM.com$
+.cydzzvA.com$
+.OPaNjnc.com$
+.XaZWyUg.com$
+.MRwNepI.com$
+.alMUesb.com$
+.fwawHBT.com$
+.cUaywFv.com$
+.xGPnnTc.com$
+.gLNarPP.com$
+.FvYOTLo.com$
+.ycfupioptrja.com$
+.LrTkNJx.com$
+.khzlGax.com$
+.zjnpsdfsfwyna.com$
+.svQpQkU.com$
+.POoPHBw.com$
+.doublepimp.com$
+.QwpThGw.com$
+.aholdusa.com$
+.PtepCZn.com$
+.IiChRfo.com$
+.tcrImvt.com$
+.hzLSRqx.com$
+.yupitsvegan.com$
+.FLutNvM.com$
+.lucypetproducts.com$
+.monster$
+.thdfherse.com$
+.nequium.com$
+.garipoglu.com$
+.ticino.com$
+.yandex.ru$
