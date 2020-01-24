@@ -1,0 +1,41 @@
+== Header - Begin ==
+
+Name: Autopurge-TLDs
+Description: Automatically delete all emails from TLDs that have a high rate of spam/phishing and any country-based TLDs where the company does not do any business and spam/phishing emails have been received from.
+
+Rules:
+- If the message includes these patterns in the From address: <List>
+
+Actions:
+- Delete the message without notifying the recipient or sender
+- Create incident report and send to autiting mailbox
+
+Exceptions:
+- None
+
+== Header - End ==
+
+== List - Begin <Text> ==
+
+.ve$
+.ru$
+.jp$
+.br$
+.sg$
+.mx$
+.xyz$
+.hu$
+.bw$
+.zm$
+.ec$
+.ar$
+.cz$
+.ua$
+.tr$
+.vn$
+.bd$
+.kh$
+.rs$
+.pt$
+.bf$
+.it$
