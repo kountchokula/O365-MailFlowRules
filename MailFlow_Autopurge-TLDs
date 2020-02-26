@@ -4,7 +4,7 @@ Name: Autopurge-TLDs
 Description: Automatically delete all emails from TLDs that have a high rate of spam/phishing and any country-based TLDs where the company does not do any business and spam/phishing emails have been received from.
 
 Rules:
-- If the message includes these patterns in the From address: <List>
+- If the message includes these patterns in the From address: <List0>
 
 Actions:
 - Delete the message without notifying the recipient or sender
@@ -15,7 +15,7 @@ Exceptions:
 
 == Header - End ==
 
-== List - Begin <Text> ==
+== List0 - Begin <Text> ==
 
 .ve$
 .ru$
@@ -40,3 +40,6 @@ Exceptions:
 .bf$
 .it$
 .at$
+.monster$
+
+== List0 - End ==
