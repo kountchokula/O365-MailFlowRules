@@ -4,18 +4,18 @@ Name: Autopurge-Domains
 Description: Automatically delete all emails from domains where spam/phishing emails have been received and the company does not do business with.
 
 Rules:
-- If the message includes these patterns in the From address: <List>
+- If the message includes these patterns in the From address: <List0>
 
 Actions:
 - Delete the message without notifying the recipient or sender
 - Create incident report and send to autiting mailbox
 
 Exceptions:
-- None
+- If the sender's domain is: <List1>
 
 == Header - End ==
 
-== List - Begin <Text> ==
+== List0 - Begin <Text> ==
 
 .dVaCkZE.com$
 .wKnroKN.com$
@@ -80,3 +80,11 @@ Exceptions:
 .wLqpIsl.com$
 .liakaslaw.com$
 .markitelligence.com$
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+ladwp.com
+
+== List1 - End ==
