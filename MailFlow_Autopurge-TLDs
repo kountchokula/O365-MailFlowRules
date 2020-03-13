@@ -11,7 +11,7 @@ Actions:
 - Create incident report and send to autiting mailbox
 
 Exceptions:
-- None
+- If the sender's domain is: <List1>
 
 == Header - End ==
 
@@ -43,3 +43,9 @@ Exceptions:
 .monster$
 
 == List0 - End ==
+
+== List1 - Begin <Text> ==
+
+coastalsolutions.it
+
+== List1 - End ==
