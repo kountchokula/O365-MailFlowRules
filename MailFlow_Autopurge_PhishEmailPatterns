@@ -1,1 +1,23 @@
+== Header - Begin ==
 
+Name: PhishEmailPatterns
+
+Description: Automatically delete emails using common phishing formats.
+
+Rules:
+- If the sender is located outside the organization
+- If the message includes these patterns in the From address: <List0>
+
+Actions:
+- Delete the message without notifying the recipient or sender
+- Create incident report and send to autiting mailbox
+
+Exceptions:
+- None
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+Request Posted from TOPS Insider Web Site
+MyFax message from
