@@ -11,6 +11,7 @@ Rules:
 Actions:
 - Delete the message without notifying the recipient or sender
 - Create incident report and send to autiting mailbox
+- Stop processing more rules
 
 Exceptions:
 - None
