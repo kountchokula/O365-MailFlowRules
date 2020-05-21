@@ -1,1 +1,51 @@
+== Header - Begin ==
+
+Name: VIP-Spoof
+Description: Automatically quarantine all emails from external domains where a manager/executive is named
+
+Rules:
+- If the sender is located Outside the organization
+- The FROM message header matches... <List0>
+
+Actions:
+- Create incident report and send to autiting mailbox
+- Deliver the message to the hosted quarantine
+- Stop processing more rules
+
+Exceptions:
+- The sender is... <List1>
+- The sender address includes... <List2>
+- The sender's domain is... <List3>
+
+== Header - End ==
+
+
+== List0 - Begin <Text> ==
+
+## In this area list each manager/executive whom you want to protect from spoofing. Make two entries - First Last and Last First
+
+== List0 - End ==
+
+
+== List1 - Begin <Text> ==
+
+## List specific email address from other domains that are verified safe or owned by the manager/exec.
+## Examples: Personal Gmail/Outlook accounts, third-party services (Basecamp, Dropbox, Lucidchart, etc), and known services (sharepointonline.com)
+
+== List1 - End ==
+
+
+== List2 - Begin <Text> ==
+
+## List services like Facebook, Twitter, Linkedin, etc where the address may change dynamically
+
+== List2 - End ==
+
+
+== List3 - Begin <Text> ==
+
+## List domains that are known safe
+## Examples: asana.com, gotowebinar.com, sendgrid.net, email.teams.microsoft.com, quarantine.messaging.microsoft.com, docusign.net, salesforce.com
+
+== List3 - End ==
 
