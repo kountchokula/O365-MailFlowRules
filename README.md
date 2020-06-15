@@ -5,3 +5,7 @@ Mail Flow Rules in use to secure Office 365. Implement rules in the following or
 2. RejectNoReply-Stage1
 3. RejectNoReply-Stage2
 4. AutoPurge-TLDs
+5. Autopurge-Gibberish-Domains
+6. 
+7. 
+8. 
