@@ -1,0 +1,59 @@
+== Header - Begin ==
+
+Name: RejectNoReply-Stage1
+Description: Stage 1 of 2. Rejects replies sent to no-reply emails with a message unless it is a server reply/
+
+Rules:
+- If the recipient is <List0>
+- If the sender is located Outside the organization
+
+Actions:
+- Reject the message with the explanation 'This no-reply mailbox does not accept external email. Please contact [EMAIL] if you require assistance.
+
+Exceptions:
+- The sender address matches <List1>
+- The subject includes <List2>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+**Add in all email addresses used by the organization that are designated no-reply accounts**
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+postmaster
+mailer
+daemon
+
+== List1 - End ==
+
+== List2 - Begin <Text> ==
+
+undelivered mail returned
+returned mail
+received your email
+out of the office
+out of office
+on holiday
+message delivery delay
+delivery failure
+avis d'expédition
+autosvar
+autoresponse
+autoreply
+automatisk svar
+automatisch
+automatique
+automatic reply
+automaattinen
+auto:
+auto response
+auto reply
+address verification
+accuse de reception
+absence
+
+== List2 - End ==
