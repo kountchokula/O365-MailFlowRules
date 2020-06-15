@@ -1,0 +1,36 @@
+== Header - Begin ==
+
+Name: Quarantine_Header
+Description: Quarantines email based on header information.
+
+Rules:
+- The sender is located Outside the organization
+- The FROM message header matches <List0>
+
+Actions:
+- Deliver the message to the hosted quarantine
+- Stop processing more rules
+
+Exceptions:
+- The sender address matches <List1>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+α
+Ď'
+x̣
+ō
+ṝ
+Ḕ
+Å
+'เ
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+\.dk$
+
+== List1 - End ==
