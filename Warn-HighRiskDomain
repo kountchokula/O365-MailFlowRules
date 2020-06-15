@@ -1,0 +1,90 @@
+== Header - Begin ==
+
+Name: Warn-HighRiskDomain
+Description: Warn user with email header that message comes from a high-risk domain.
+
+Rules:
+- The sender is located Outside the organization
+- The subject or body matches <List0>
+
+Actions:
+- Prepend the disclaimer (Use ExternalContentWarning-HTML)
+- Create incident report and send to autiting mailbox
+
+Exceptions:
+- The subject or body matches 'This email originated from outside the organization'
+- The sender's domain is <List1>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+\.joburg
+\.weebly\.com
+is\.gd/
+contabo\.net
+\.tripod\.com
+myfreesites\.net
+\.uz/
+\.cl/
+form2pay\.com
+\.ukit\.me
+/u\.to/
+\.your-server\.de
+url\.fit/
+\.c9users\.io
+jotformeu\.com
+godaddysites\.com
+\.free\.fr/
+\.inmotionhosting\.com
+\.webhostbox\.net
+\w\.xyz/
+\.website2\.me
+sites\.google\.com
+hyperurl\.co
+://x\.co/
+\.5gbfree\.com
+://wurl\.cc
+\.appzoneteam\.com
+://spbver\.de
+://hubn\.jp
+://tiny\.cc/
+\.skclick\.in
+topstyle\.me
+\.ulcraft\.com
+\.16mb\.com
+://tny\.im/
+\.pl.ua
+://flyt\.it/
+webredirect\.org
+://s\.id/
+://smarturl\.it/
+://bit\.do/
+://pxlme\.me/
+://i-to\.cc/
+://urly\.fi/
+://lc\.cx/
+://snip\.ly/
+\.yolasite\.com
+://vzt\.me/
+://ssh\.tf/
+://www\.b00\.fr/
+://cuu\.su/
+://soo\.gd/
+sendspace\.com
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+**Enter explicit emails addresses you know are safe
+
+== List1 - End ==
+
+== List2 - Begin <Text> ==
+
+raygun.com
+hubspot.com
+zdsys.com
+
+== List2 - End ==
