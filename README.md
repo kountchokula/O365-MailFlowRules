@@ -9,5 +9,5 @@ Mail Flow Rules in use to secure Office 365. Implement rules in the following or
 6. Autopurge-LeadRecruiter-Domains
 7. Autopurge-JunkSpam-Domains
 8. Autopurge_PhishEmailPatterns
-9. 
+9. VIP_Spoof_Protection
 10. 
