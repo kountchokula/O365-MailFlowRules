@@ -1,0 +1,23 @@
+== Header - Begin ==
+
+Name: RejectNoReply-Stage2
+Description: Stage 2 of 2. Deletes messages replied to by Stage 1 and generates an incident report (for auditing purposes)
+
+Rules:
+- If the recipient is <List0>
+- If the sender is located Outside the organization
+
+Actions:
+- Delete the message without notifying anyone
+- Generate an incident report and send it to (montioring mailbox)
+
+Exceptions:
+- None
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+**Add in all email addresses used by the organization that are designated no-reply accounts**
+
+== List0 - End ==
