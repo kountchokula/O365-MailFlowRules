@@ -1,0 +1,72 @@
+== Header - Begin ==
+
+Name: Autopurge-Domains
+Description: Automatically delete all emails from all gibberish domains.
+
+Rules:
+- If the message includes these patterns in the From address: <List0>
+
+Actions:
+- Delete the message without notifying the recipient or sender
+- Create incident report and send to autiting mailbox
+- Stop processing more rules
+
+Exceptions:
+- If the sender's domain is: <List1>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+.dVaCkZE.com$
+.wKnroKN.com$
+.utuDCEK.com$
+.kMiZvhC.com$
+.sFGQRwx.com$
+.vpdddeqweweqwedg.com$
+.JuYCrvG.com$
+.PtlzQSM.com$
+.cydzzvA.com$
+.OPaNjnc.com$
+.XaZWyUg.com$
+.MRwNepI.com$
+.alMUesb.com$
+.fwawHBT.com$
+.cUaywFv.com$
+.xGPnnTc.com$
+.gLNarPP.com$
+.FvYOTLo.com$
+.ycfupioptrja.com$
+.LrTkNJx.com$
+.khzlGax.com$
+.zjnpsdfsfwyna.com$
+.svQpQkU.com$
+.POoPHBw.com$
+.QwpThGw.com$
+.PtepCZn.com$
+.IiChRfo.com$
+.tcrImvt.com$
+.hzLSRqx.com$
+.FLutNvM.com$
+.fggew.com$
+.uHVheLf.com$
+.FdEaVYc.com$
+.FQOHgbTMzr.com$
+.wLqpIsl.com$
+.sxcwb.me$
+.z5s7uyiq.5ahku$
+.iinpp.cd$
+.VKBEr.com$
+.o9nlu.com$
+.mk1Kk.com$
+.N02b9.com$
+.qiyijxcvcvbcvbkrb.com$
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+ladwp.com
+managewp.com
+
+== List1 - End ==
