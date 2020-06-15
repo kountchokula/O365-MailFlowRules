@@ -1,6 +1,6 @@
 == Header - Begin ==
 
-Name: Quarantine_Header
+Name: Quarantine-Header
 Description: Quarantines email based on header information.
 
 Rules:
@@ -9,6 +9,7 @@ Rules:
 
 Actions:
 - Deliver the message to the hosted quarantine
+- Generate incident report and send it to (EMAIL)
 - Stop processing more rules
 
 Exceptions:
