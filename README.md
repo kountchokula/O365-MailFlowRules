@@ -1,5 +1,7 @@
 # O365-Security
-Mail Flow Rules in use to secure Office 365. Implement rules in the following order of priority:
+Mail Flow Rules in use to secure Office 365. Many of these are adapted from SwiftOnSecurity Office365 management rules.
+
+Implement rules in the following order of priority:
 
 1. BlockExternalForwards
 2. RejectNoReply-Stage1
