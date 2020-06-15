@@ -1,0 +1,72 @@
+== Header - Begin ==
+
+Name: Autopurge-Lead/Recruiter Domains
+Description: Automatically delete all emails from all domains offering leads or staffing.
+
+Rules:
+- If the message includes these patterns in the From address: <List0>
+
+Actions:
+- Delete the message without notifying the recipient or sender
+- Create incident report and send to autiting mailbox
+- Stop processing more rules
+
+Exceptions:
+- If the sender's domain is: <List1>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+.markitelligence.com$
+.txdisplaysonline.com$
+.amigosleads.com$
+.dataprotechnomarkethub.com$
+.softwareuserdata.com$
+.dtmarketing.agency$
+.globalleadspro.com$
+.techparkbusinessinc.com$
+.bigdatamartech.com$
+.okexhibits.com$
+.leadsprospectsworld.com$
+.freaksshows.net$
+.inspironleads.com$
+.oxfadata.com$
+.globalsolutionfs.com$
+.mdexhibits.com$
+.market-analyse.com$
+.startupranking.com$
+.indiumsoft.com$
+.salesgnu.com$
+.tradeshowreach.com$
+.accordtechnosystems.com$
+.sappersolutions.net$
+.email-enhancers.com$
+.events-info.com$
+.employeemindset.com$
+.triumphstaffing.com$
+.primeleadsfinancial.com$
+.oceandatalinks.co$
+.techdatainformation.com$
+.bestexecmarketing.com$
+.globaldataanalysis.com$
+.datademographic.com$
+.leaddataexperts.com$
+.sourceselectgroup.com$
+.accountintels.com$
+.leadspioneer.com$
+.siegelsolutionsllc.com$
+.aceconsultingengineers.com$
+.infointelligence.co$
+.itleadsonline.com$
+.l4leads.com$
+.eurotopleads.com$
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+ladwp.com
+managewp.com
+
+== List1 - End ==
