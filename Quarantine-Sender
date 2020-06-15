@@ -18,19 +18,28 @@ Exceptions:
 
 == List0 - Begin <Text> ==
 
-α
-Ď'
-x̣
-ō
-ṝ
-Ḕ
-Å
-'เ
+\.ssl\.com$
+VoiceMessage@
+vmservice@
+mail365
+ffax.com
+efax@
+dropsign\.net
+docusign\-
+docusigns
+@dse\.com
 
 == List0 - End ==
 
 == List1 - Begin <Text> ==
 
-\.dk$
+**Enter explicit emails addresses you know are safe
 
 == List1 - End ==
+
+== List2 - Begin <Text> ==
+
+checkalt.com
+quarantine.messaging.microsoft.com
+
+== List2 - End ==
