@@ -1,0 +1,23 @@
+== Header - Begin ==
+
+Name: Autopurge-People
+Description: Automatically delete all emails from known spam senders.
+
+Rules:
+- The sender is <List0>
+
+Actions:
+- Delete the message without notifying the recipient or sender
+- Create incident report and send to autiting mailbox
+- Stop processing more rules
+
+Exceptions:
+- If the sender's domain is: <List1>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+**List all emails where you get spam/malware/phishing emails from
+
+== List0 - End ==
