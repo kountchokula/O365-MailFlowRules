@@ -1,0 +1,24 @@
+== Header - Begin ==
+
+Name: BlockExternalForwards
+Description: Prevents users from setting up auto-forwarding outside the organization except for approved domains.
+
+Rules:
+- If the sender is located Inside the organization
+- If the recipient is located Outside the organization
+- If the message type is Auto-forward
+
+Actions:
+- Reject the message with the explanation 'Client forwarding rules to external domains are not permitted'
+
+Exceptions:
+- The domain is: <List0>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+zdsys.com
+zendesk.com
+
+== List0 - End ==
