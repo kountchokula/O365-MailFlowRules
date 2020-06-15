@@ -1,0 +1,83 @@
+== Header - Begin ==
+
+Name: Warn-PhishingContent
+Description: Warn user with email header that message contains content commonly used in phishing emails.
+
+Rules:
+- The sender is located Outside the organization
+- The subject or body matches <List0>
+
+Actions:
+- Prepend the disclaimer (Use ExternalContentWarning-HTML)
+- Create incident report and send to autiting mailbox
+
+Exceptions:
+- The sender is located Inside the organization
+- The recipient is <List1>
+- The subject or body includes <List2>
+- The sender's domain is <List3>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+.com Document is Ready for Signature
+account Has Been Limited
+ACTION REQUIRED: Completed: Docusign
+Attached File to Docusign
+Banking is temporarily unavailable
+bankofamerica
+Closing Statement Invoice Payment For PO
+Delivery stopped for shipment
+detected suspicious
+detected suspicious actvity
+docu sign
+document for you
+document has been sent to you via Docusign
+FreeFax
+Fwd: Due invoice paid
+REQUIRED: Completed Docusign
+secured files
+secured pdf
+Unrecognized login attempt,
+You have notifications pending
+Your document Settlement
+Your password has been compromised
+>Access<
+>Download<
+>View Documents<
+Download Documents
+blocked messages
+\.[pxd][dlo][fsc]x?\W*\d{1,3}\.\d+\W*[kmg]b
+you have \d+ [upw]
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+**Enter explicit emails addresses you know are safe
+
+== List1 - End ==
+
+== List2 - Begin <Text> ==
+
+workato
+yapstone
+
+== List2 - End ==
+
+== List3 - Begin <Text> ==
+
+ealerts.bankofamerica.com
+quarantine.messaging.microsoft.com
+yapstone.com
+raygun.com
+docusign.net
+ringcentral.com
+zendesk.com
+gotomeeting.com
+hubspot.com
+zdsys.com
+basecamp.com
+
+== List3 - End ==
