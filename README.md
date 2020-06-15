@@ -1,2 +1,6 @@
 # O365-Security
-Scripts and Mail Flow Rules in use to secure Office 365.
+Mail Flow Rules in use to secure Office 365. Implement rules in the following order of priority:
+
+
+RejectNoReply-Stage1
+RejectNoReply-Stage2
