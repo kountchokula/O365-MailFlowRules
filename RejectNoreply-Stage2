@@ -10,6 +10,7 @@ Rules:
 Actions:
 - Delete the message without notifying anyone
 - Generate an incident report and send it to (montioring mailbox)
+- Stop processing more rules
 
 Exceptions:
 - None
