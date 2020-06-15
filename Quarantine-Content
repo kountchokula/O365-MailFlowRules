@@ -1,0 +1,72 @@
+== Header - Begin ==
+
+Name: Quarantine_Content
+Description: Quarantines email based on message content.
+
+Rules:
+- The subject or body matches <List0>
+
+Actions:
+- Deliver the message to the hosted quarantine
+- Generate incident report and send it to (EMAIL)
+- Stop processing more rules
+
+Exceptions:
+- The sender address matches <List1>
+- The sender's domain is <List2>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+PaKuBon
+vicgames.cl
+retrieve messages
+smarturl.it
+First American Title Insurance Company
+Please I need you to do me a favor
+\|\s*Download.as.Excel
+\.com/\?[0-9]+\=
+You have new documents sent to you via
+will be deleted in few hours
+View Invoice in DOCx?\W
+used docu.?box to
+to share some document 
+shared?.a.secure.file
+shared a private document
+secured? files link
+Scan result: Clean
+Purchase Order for your kind reference
+Our courier attempted
+one drive team
+no emails reply: no emails
+new\W*documents\W*was\W*sent\W*to\W*you
+MOVE.MESSAGE.TO.IN.?BOX
+invoice.?#.?[0-9]{3,}\.doc
+how to resolve your email
+File scanned by Avast antivirus
+dropbox file sent
+Download.\|.View
+clustered messages
+but there was nobody who could sign
+Antivirus.Status:\s*Clean
+a Secured File with you
+/New-invoice-
+/invoice-due-
+//bitly\.im/
+ view click here
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+**Enter explicit emails addresses you know are safe
+
+== List1 - End ==
+
+== List2 - Begin <Text> ==
+
+checkalt.com
+quarantine.messaging.microsoft.com
+
+== List2 - End ==
