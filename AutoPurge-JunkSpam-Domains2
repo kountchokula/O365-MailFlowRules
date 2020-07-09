@@ -1,6 +1,6 @@
 == Header - Begin ==
 
-Name: Autopurge-JunkSpam
+Name: Autopurge-JunkSpam2
 Description: Automatically delete all emails from all domains where misc crap comes from.
 
 Rules:
@@ -18,6 +18,7 @@ Exceptions:
 
 == List0 - Begin <Text> ==
 
+.eliteelevator.us$
 .cachearts.org$
 .peoplepc.com$
 .elderswelcome.org$
