@@ -1,0 +1,33 @@
+== Header - Begin ==
+
+Name: Autopurge-JunkSpam
+Description: Automatically delete all emails from all domains where misc crap comes from.
+
+Rules:
+- If the message includes these patterns in the From address: <List0>
+
+Actions:
+- Delete the message without notifying the recipient or sender
+- Create incident report and send to autiting mailbox
+- Stop processing more rules
+
+Exceptions:
+- If the sender's domain is: <List1>
+
+== Header - End ==
+
+== List0 - Begin <Text> ==
+
+.cachearts.org$
+.peoplepc.com$
+.elderswelcome.org$
+.tbrecycling.com$
+
+== List0 - End ==
+
+== List1 - Begin <Text> ==
+
+ladwp.com
+managewp.com
+
+== List1 - End ==
