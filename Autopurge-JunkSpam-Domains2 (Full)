@@ -12,12 +12,23 @@ Actions:
 - Stop processing more rules
 
 Exceptions:
-- If the sender's domain is: <List1>
+- The sender is: <List1>
+- The sender's domain is: <List2>
 
 == Header - End ==
 
 == List0 - Begin <Text> ==
 
+.hiresiteoptimizer.in.net$
+.cleversearch.info$
+.juzo.co.uk$
+.taikisha-vn.com$
+.nationalhogfarmer.com$
+.hansonimageworks.com$
+.noedj.com$
+.camdenmainstay.com$
+.mainestay.com$
+.yandex.com$
 .canterburypewter.com$
 .myproductmail.com$
 .appbookr.tech$
@@ -236,8 +247,14 @@ Exceptions:
 
 == List1 - Begin <Text> ==
 
+Powerstone_Property_Management@mail.vresp.com
+
+== List1 - End ==
+
+== List2 - Begin ==
+
 spinnakerusa.com
 ladwp.com
 managewp.com
 
-== List1 - End ==
+== List2 - End ==
