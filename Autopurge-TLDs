@@ -18,7 +18,6 @@ Exceptions:
 
 == List0 - Begin <Text> ==
 
-.mu$
 .ae$
 .af$
 .agency$
@@ -49,6 +48,7 @@ Exceptions:
 .fr$
 .ga$
 .ge$
+.gr$
 .hk$
 .hu$
 .id$
@@ -67,6 +67,7 @@ Exceptions:
 .ml$
 .monster$
 .mt$
+.mu$
 .mx$
 .my$
 .nl$
