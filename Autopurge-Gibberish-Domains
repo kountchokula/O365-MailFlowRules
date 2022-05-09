@@ -18,66 +18,16 @@ Exceptions:
 
 == List0 - Begin <Text> ==
 
+Formatting for list - ".domain.tld$" 
+- Starting entry with . and ending with $ formats as a wildcard entry for every possible variation of the domain, including all subdomains.
+
+Example:
 .giMYY.com$
-.4dLhN.com$
-.fFnnH.com$
-.swixhq.com$
-.ahcxmalawi.com$
-.0tterpr.com$
-.r717.net$
-.mkldlhfkdh.work$
-.mjwbol.com$
-.ymlpsvr.com$
-.fggew.com$
-.dVaCkZE.com$
-.wKnroKN.com$
-.utuDCEK.com$
-.kMiZvhC.com$
-.sFGQRwx.com$
-.vpdddeqweweqwedg.com$
-.JuYCrvG.com$
-.PtlzQSM.com$
-.cydzzvA.com$
-.OPaNjnc.com$
-.XaZWyUg.com$
-.MRwNepI.com$
-.alMUesb.com$
-.fwawHBT.com$
-.cUaywFv.com$
-.xGPnnTc.com$
-.gLNarPP.com$
-.FvYOTLo.com$
-.ycfupioptrja.com$
-.LrTkNJx.com$
-.khzlGax.com$
-.zjnpsdfsfwyna.com$
-.svQpQkU.com$
-.POoPHBw.com$
-.QwpThGw.com$
-.PtepCZn.com$
-.IiChRfo.com$
-.tcrImvt.com$
-.hzLSRqx.com$
-.FLutNvM.com$
-.fggew.com$
-.uHVheLf.com$
-.FdEaVYc.com$
-.FQOHgbTMzr.com$
-.wLqpIsl.com$
-.sxcwb.me$
-.z5s7uyiq.5ahku$
-.iinpp.cd$
-.VKBEr.com$
-.o9nlu.com$
-.mk1Kk.com$
-.N02b9.com$
-.qiyijxcvcvbcvbkrb.com$
 
 == List0 - End ==
 
 == List1 - Begin <Text> ==
 
-ladwp.com
-managewp.com
+Wildcard formatting from <List0> not necessary - just format these entries as domain.tld
 
 == List1 - End ==
