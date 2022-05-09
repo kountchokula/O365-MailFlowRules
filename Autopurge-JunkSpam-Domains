@@ -28,6 +28,8 @@ Example:
 
 == List1 - Begin <Text> ==
 
-Wildcard formatting from <List0> not necessary - just format these entries as domain.tld
+- Wildcard formatting from <List0> not necessary - just format these entries as domain.tld
+- Domains that show as components of a domain in <List0> should be added here. For example, if listing wp.com in <List0> then managewp.com will get flagged as well. 
+- In this case add managewp.com to <List1> so it doesn't get flagged as well.
 
 == List1 - End ==
